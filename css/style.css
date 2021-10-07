@@ -109,7 +109,6 @@ h2 {
 
 }
 .link1 {
-
    color: rgb(0, 0, 0);
    font-size: 30px;
    font-style: oblique;
@@ -119,17 +118,17 @@ h2 {
    background: rgb(255, 209, 3);
    text-shadow: 4px 5px 4px #002efd;
    margin: 0px auto; 
-
 }
 .enot {
 	border: 10px dashed  #af9e68;
 	display: block;
 	max-width: 100%;
 	margin: 0px auto 50px auto;
-	
+}
+.enot :hover {
+	opacity: 0;
 }
 .imgenot {
-	
 	max-width: 100%;
 	border: 10px solid #5ebdd4;
 	margin: 0px auto 20px auto; 
